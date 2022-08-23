@@ -6,10 +6,13 @@
  */
 
 (function main() {
-  'use strict'; // Demande un interprétation stricte du code
+    'use strict'; // Demande un interprétation stricte du code
 
-  let a = 'Bonjour';
+    const tempCelsius = Number(prompt('Température en Celsius : '));
 
-  console.log(a);
+    alert(`${tempCelsius} °C = ${tempCelsius * 9 / 5 + 32} °F`);
+
 }()); // Main IIFE
+
+
 
